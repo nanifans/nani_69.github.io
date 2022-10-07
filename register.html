@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="description" content="Basic HTML elements"/>
+	<meta name="keywords" content="HTML5, tags"/>
+	<meta name="author" content="A Lecturer"/>
+
+	
+
+</head>
+
+<body>
+	<header>
+	<img src="SwinLogo (1).png">
+</header>
+<nav>
+	<ul>
+		<li><a href="https://www.swinburne.edu.my/contact">Contact Us</a></li>
+		<li><a href="https://www.swinburne.edu.my/hr">Jobs at Swinburne</a></li>
+		<li><a href="https://www.swinburne.edu.au/copyright-disclaimer/">Copyright and disclaimer</a></li>
+		<li><a href="https://www.swinburne.edu.my/privacy/">Privacy</a></li>
+		<li><a href="https://www.swinburne.edu.my/accessibility-information/">Accessibility</a></li>
+		<li><a href="https://www.swinburne.edu.my/feedback">Feedback</a></li>
+        <li><a target="_self" href="file:///E:/Sakib/University/Semester%201/COS10011/Week%203/lab2/lab2.html/register.html">Register</a></li>
+	</ul>
+</nav>
+<form id="detail" method="post" action="mailto:102773948@students.swinburne.edu.my" enctype="text/plain">
+	<fieldset>
+		<legend>Personal Details:</legend>
+		<label>Name:
+			<input type="text" name="pname" placeholder="Your name"/></label>
+			<br>
+		<label>Email:
+			<input type="text" name="pemail" placeholder="Your email" /></label>
+			<br>
+		<label>Date of birth:
+			<input type="=text" name="pdob" /></label>		
+	</fieldset>
+	<fieldset>
+		<legend>Your unit</legend>
+		<input type="radio" value="cos10011" checked required="required"/>COS10011
+		<input type="radio" value="cos60004"/>COS60004
+		<input type="radio" value="cos60007"/>COS60007 <br/><br/>
+
+		<label>Your Tutor:</label>
+		<select name="tutor">
+				<option selected>Tutor1</option>
+				<option>Tutor 2</option>
+				<option>Tutor 3</option>
+				<option>other</option>
+		</select>
+	</fieldset>
+	<fieldset>
+		<legend>Issue</legend>
+	<input type="checkbox" name="html" value="1"/> HTML
+	<input type="checkbox" name="css" value="1"/> CSS
+	<input type="checkbox" name="javascript" value="1"/>JavaScript
+	<input type="checkbox" name="php" value="1"/>PHP
+	<input type="checkbox" name="mysql" value="1"/>MySQL
+	<br>
+	<br>
+	<legend>Description of Issue</legend>
+	<textarea name ="message" placeholder="Enter comments here" rows="10" cols="30"></textarea>
+	<br><br>
+	
+</fieldset>
+<fieldset>
+<legend>Preferred Date/Time</legend>
+	<p><label> Date
+		<input type="date" name="date"/>
+	</label></p>	
+	
+	<p><label> Time
+		<input type="time" name="starttime"/>
+	</label></p>
+
+</fieldset>
+<button type = "submit" value = "Submit">Register</button>
+<button type = "reset" value = "Reset">Reset</button>
+</br>	
+</form>
+<footer>
+	<p>Posted by: Sakibul Islam(id 102773948)</p>
+	<p>Contact information:<a href="mailto:102773948@students.swinburne.edu.my">102773948@students.swinburne.edu.my</a></p>
+</footer>	
+</body>
+</html>
